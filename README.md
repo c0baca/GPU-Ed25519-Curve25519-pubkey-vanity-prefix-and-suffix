@@ -29,31 +29,16 @@ Multi-GPU support.
 
 ## 📖 Usage
 
-### Fingerprint Search
-
 ```bash
 ed25519brute_cuda.exe --fingerprint-prefix dead
-
-ed25519brute_cuda.exe --fingerprint-suffix cafe
+ed25519brute_cuda.exe --fingerprint-suffix beef
+ed25519brute_cuda.exe --fingerprint-prefix dead -suffix beef -blocks 256 -gpu 0,1
 ```
+---
+## 📚 Build Instructions
 
-### Public Key Search
-
-```bash
-ed25519brute_cuda.exe --pubkey-prefix dead
-
-ed25519brute_cuda.exe --pubkey-suffix beef
-```
-
-### Multi-GPU Example
-
-```bash
-ed25519brute_cuda.exe ^
-  --pubkey-prefix dead ^
-  --pubkey-suffix beef ^
-  --blocks 256 ^
-  --gpu 0,1,2
-```
+- 🇺🇸 [English Build Guide](BUILD_INSTRUCTIONS_EN.md)
+- 🇷🇺 [Русская инструкция по сборке](BUILD_INSTRUCTIONS_RU.md)
 
 ---
 
@@ -68,8 +53,6 @@ ed25519brute_cuda.exe ^
 | `--blocks`             | CUDA blocks per GPU |
 | `--gpu`                | GPU IDs             |
 
-> ⚠ Fingerprint and Public Key modes cannot be combined.
-
 ---
 
 ## 📸 Example Search
@@ -77,22 +60,6 @@ ed25519brute_cuda.exe ^
 ![Example Search](images/example.png)
 
 ---
-
-## 📁 Generated Files
-
-```text
-found_key.txt
-id_ed25519
-id_ed25519.pub
-```
-
-### found_key.txt contains
-
-* Seed
-* Public Key
-* SSH Fingerprint
-* MeshCore Private Key
-* OpenSSH Private Key
 
 ---
 
