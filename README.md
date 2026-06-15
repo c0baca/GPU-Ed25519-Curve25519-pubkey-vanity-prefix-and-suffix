@@ -74,9 +74,7 @@ ed25519brute_cuda.exe ^
 
 ## 📸 Example Search
 
-<p align="center">
-  <img src="images/example.png" width="100%">
-</p>
+![Example Search](images/example.png)
 
 ---
 
