@@ -1,0 +1,196 @@
+main.cu
+main.cu
+main.cu
+main.cu
+main.cu
+C:\Users\moris\Downloads\MESH\ed25519brute-cuda-main\Новая папка\ed25519brute-cuda-main1 — копия\Новая папка\Новая папка (правильная генерация)\src\fingerprint_match.cuh(189): warning #177-D: variable "pattern_bits" was declared but never referenced
+      uint8_t pattern_bits[64] = {0};
+              ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+C:\Users\moris\Downloads\MESH\ed25519brute-cuda-main\Новая папка\ed25519brute-cuda-main1 — копия\Новая папка\Новая папка (правильная генерация)\src\fingerprint_match.cuh(189): warning #177-D: variable "pattern_bits" was declared but never referenced
+      uint8_t pattern_bits[64] = {0};
+              ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+C:\Users\moris\Downloads\MESH\ed25519brute-cuda-main\Новая папка\ed25519brute-cuda-main1 — копия\Новая папка\Новая папка (правильная генерация)\src\fingerprint_match.cuh(189): warning #177-D: variable "pattern_bits" was declared but never referenced
+      uint8_t pattern_bits[64] = {0};
+              ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+ptxas info    : 904704 bytes gmem, 1076 bytes cmem[3]
+ptxas info    : Compiling entry function '_Z13search_kernelP11MatchResultyPK12PubkeyParams' for 'sm_75'
+ptxas info    : Function properties for _Z13search_kernelP11MatchResultyPK12PubkeyParams
+    11088 bytes stack frame, 24 bytes spill stores, 24 bytes spill loads
+ptxas info    : Used 128 registers, used 1 barriers, 376 bytes cmem[0]
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z23ed25519_ssh_wire_formatPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22ed25519_create_keypairPKhPhS1_
+    72 bytes stack frame, 28 bytes spill stores, 28 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z21ed25519_pubkey_batch4PA32_KhPA32_h
+    1208 bytes stack frame, 368 bytes spill stores, 368 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z24ed25519_pubkey_from_seedPKhPh
+    88 bytes stack frame, 36 bytes spill stores, 36 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p3_tobytesPhPK5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z18ge_scalarmult_baseP5ge_p3PKh
+    56 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_sharedP5ge_p3PKh
+    56 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_simpleP5ge_p3PKh
+    72 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p1p1_to_p2P5ge_p2PK7ge_p1p1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7ge_p3_0P5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13fe_isnegativePKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z10fe_tobytesPhPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z9fe_invertPiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z6fe_sq2PiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7fe_cmovPiPKij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z14sha512_32bytesPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22sha256_ssh_fingerprintPKhPj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : 904704 bytes gmem, 1076 bytes cmem[3]
+ptxas info    : Compiling entry function '_Z13search_kernelP11MatchResultyPK12PubkeyParams' for 'sm_89'
+ptxas info    : Function properties for _Z13search_kernelP11MatchResultyPK12PubkeyParams
+    11088 bytes stack frame, 20 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 128 registers, used 1 barriers, 376 bytes cmem[0]
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z23ed25519_ssh_wire_formatPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22ed25519_create_keypairPKhPhS1_
+    72 bytes stack frame, 28 bytes spill stores, 28 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z21ed25519_pubkey_batch4PA32_KhPA32_h
+    1048 bytes stack frame, 200 bytes spill stores, 200 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z24ed25519_pubkey_from_seedPKhPh
+    88 bytes stack frame, 36 bytes spill stores, 36 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p3_tobytesPhPK5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z18ge_scalarmult_baseP5ge_p3PKh
+    72 bytes stack frame, 24 bytes spill stores, 24 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_sharedP5ge_p3PKh
+    56 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_simpleP5ge_p3PKh
+    72 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p1p1_to_p2P5ge_p2PK7ge_p1p1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7ge_p3_0P5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13fe_isnegativePKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z10fe_tobytesPhPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z9fe_invertPiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z6fe_sq2PiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7fe_cmovPiPKij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z14sha512_32bytesPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22sha256_ssh_fingerprintPKhPj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : 904704 bytes gmem, 1076 bytes cmem[3]
+ptxas info    : Compiling entry function '_Z13search_kernelP11MatchResultyPK12PubkeyParams' for 'sm_86'
+ptxas info    : Function properties for _Z13search_kernelP11MatchResultyPK12PubkeyParams
+    11088 bytes stack frame, 20 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 128 registers, used 1 barriers, 376 bytes cmem[0]
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z23ed25519_ssh_wire_formatPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22ed25519_create_keypairPKhPhS1_
+    72 bytes stack frame, 28 bytes spill stores, 28 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z21ed25519_pubkey_batch4PA32_KhPA32_h
+    1048 bytes stack frame, 200 bytes spill stores, 200 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z24ed25519_pubkey_from_seedPKhPh
+    88 bytes stack frame, 36 bytes spill stores, 36 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p3_tobytesPhPK5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z18ge_scalarmult_baseP5ge_p3PKh
+    72 bytes stack frame, 24 bytes spill stores, 24 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_sharedP5ge_p3PKh
+    56 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z30ge_scalarmult_base_5bit_simpleP5ge_p3PKh
+    72 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13ge_p1p1_to_p2P5ge_p2PK7ge_p1p1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7ge_p3_0P5ge_p3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z13fe_isnegativePKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z10fe_tobytesPhPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z9fe_invertPiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z6fe_sq2PiPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z7fe_cmovPiPKij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z14sha512_32bytesPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+ptxas info    : Function properties for _Z22sha256_ssh_fingerprintPKhPj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.000 ms
+tmpxft_000009d0_00000000-7_main.compute_89.cudafe1.cpp
+link.stub
