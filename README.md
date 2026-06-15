@@ -98,29 +98,13 @@ id_ed25519.pub
 
 ---
 
-## 🔐 Supported Formats
-
-### MeshCore
-
-```text
-clamped_scalar || nonce
-```
-
-### OpenSSH
-
-```text
-seed || public_key
-```
-
----
-
 ## 🙏 Credits
 
 Math inspiration:
 
 https://github.com/4equest
 
-CUDA implementation and project:
+CUDA implementation and full project:
 
 https://github.com/c0baca
 
